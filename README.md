@@ -65,3 +65,23 @@ The purpose of an artificial neural network is to mimic how the human brain work
 In reinforcement learning, developers devise a method of rewarding desired behaviors and punishing negative behaviors. This method assigns positive values to the desired actions to encourage the agent and negative values to undesired behaviors.
 
 This code could be changed to add a score counter maybe and negative marking for every image that has been processed correctly or not.
+
+## Clustering, Regression, or Classification
+
+### Clustering
+
+![image](https://user-images.githubusercontent.com/96376049/156692462-79055751-f5ab-432e-b1f2-e1b05e4317e7.png)
+
+Clustering means grouping data based onn similar charactersitics and this would not be viable for this algorithm as the model is based onn ulabelled data and unsupervised learing however, this code is based o supervised learning. To adapt Ibelieve I would have to remove the labels and add some more parameters to group large groups of data.
+
+### Regression
+
+![image](https://user-images.githubusercontent.com/96376049/156692504-6b123a59-8030-41b8-90e8-d21fb22cf7b5.png)
+
+Regression analysis consists of a set of machine learning methods that allow us to predict a continuous outcome variable (y) based on the value of one or multiple predictor variables (x). Briefly, the goal of regression model is to build a mathematical equation that defines y as a function of the x variables.
+
+Since this works with cotinuous data types such as price or length that can actually be turnned into a mathematical equation, this code can't be using one as it is based on images. To adapt i would have to change the entoire basis of what the program is trying to lern and make it measurable with a correlation.
+
+### Classification
+
+I believe this program IS using classification as data is passed already labelled innto the different types of flowers and the program is learning to identify each category of flowers.
