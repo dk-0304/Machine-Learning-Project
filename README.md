@@ -49,3 +49,19 @@ Running my program does show this training:
 ![results](https://www.tensorflow.org/tutorials/images/classification_files/output_jWnopEChMMCn_0.png#gh-light-mode-only)
 
 The plots show that training accuracy and validation accuracy are off by large margins, and the model has achieved only around 60% accuracy on the validation set.
+
+## Back Propogation and Artificial Neural Nets
+
+This program does use artificial neural nets and I believe the graph shows the back propogatio through the loss diagram as tensorflow has an auto gradient feature. Back propogation basically is the algorithm used along with an optimization algorithm such as Gradient Descent (GD) to learn the parameters of a NN model. BP produces gradients which are then used in optimization. *_[Useful Link to understand BP](https://towardsdatascience.com/error-backpropagation-5394d33ff49b)_*
+
+![image](https://user-images.githubusercontent.com/96376049/156680565-71ac65aa-d5df-4e37-9aff-100d7d338b9c.png)
+
+The purpose of an artificial neural network is to mimic how the human brain works with the hope that we can build a machine that behaves like a human. Artificial neural networks (ANNs) are comprised of a node layers, containing an input layer, one or more hidden layers, and an output layer. Each node, or artificial neuron, connects to another and has an associated weight and threshold. If the output of any individual node is above the specified threshold value, that node is activated, sending data to the next layer of the network. Otherwise, no data is passed along to the next layer of the network. *_[IBM Link all about neural networks](https://www.ibm.com/cloud/learn/neural-networks)_*
+
+![Back Prpogation Diagram](https://www.tensorflow.org/tutorials/images/classification_files/output_dduoLfKsZVIA_0.png)
+
+## Reinforcement Learning
+
+In reinforcement learning, developers devise a method of rewarding desired behaviors and punishing negative behaviors. This method assigns positive values to the desired actions to encourage the agent and negative values to undesired behaviors.
+
+This code could be changed to add a score counter maybe and negative marking for every image that has been processed correctly or not.
