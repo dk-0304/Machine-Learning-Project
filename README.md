@@ -6,7 +6,7 @@ This is to Identify images using the TensorFlow Library. Essenntially, the libra
 
 ### Type of Model
 
-TensorFlow uses a sequential model which is used for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
+TensorFlow uses a sequential model which is used for a plain stack of layers where each layer has exactly one input tensor and one output tensor. Tensors are multi-dimensional arrays with a uniform type. All tensors are immutable like Python numbers and strings: you can never update the contents of a tensor, only create a new one.
 
 ## Does it use Supervised Learning?
 
@@ -85,3 +85,6 @@ Since this works with cotinuous data types such as price or length that can actu
 ### Classification
 
 I believe this program IS using classification as data is passed already labelled innto the different types of flowers and the program is learning to identify each category of flowers.
+
+![image](https://user-images.githubusercontent.com/96376049/157156590-87c7623f-bf4f-4272-8624-ef1fc26cf72e.png)
+
